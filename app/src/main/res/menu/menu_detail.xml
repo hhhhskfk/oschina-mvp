@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".improve.detail.activities.BlogDetailActivity">
+
+    <item
+        android:id="@+id/menu_scroll_comment"
+        android:orderInCategory="100"
+        android:title="评论"
+        app:actionLayout="@layout/lay_menu_action_comment"
+        app:showAsAction="always" />
+</menu>

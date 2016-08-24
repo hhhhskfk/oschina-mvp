@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="184dp"
+    android:background="@color/white"
+    android:minHeight="184dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hj.app.oschina.widget.indicator.CirclePagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:circle_indicator_centerHorizontal="true"
+        app:circle_indicator_color="@color/white"
+        app:circle_indicator_fill_color="@color/main_green"
+        app:circle_indicator_indicator_radius="3dp"
+        app:circle_indicator_radius="2dp" />
+</RelativeLayout>

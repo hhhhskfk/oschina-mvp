@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 滑动导航条item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tab_title"
+        style="@style/viewpage_slidingTabTitle"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/space_8"
+        android:paddingLeft="@dimen/space_16"
+        android:paddingRight="@dimen/space_16"
+        android:paddingTop="@dimen/space_8"
+        android:text="最新资讯"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tab_mes"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:visibility="visible" />
+
+</RelativeLayout>
